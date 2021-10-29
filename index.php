@@ -30,7 +30,7 @@ elseif ($text=="2*1" || $text=="2*2" || $text=="2*3"){
     $reponse="CON Entrer le numero du compteur Socode : ";
 }
 
-elseif ($text=="2*1*3"){
+elseif ($text=="2*1*3131"){
     $reponse="CON Acha en Kilo Watter\n";
     $reponse.="1. 10Kw\n";
     $reponse.="2. 20Kw\n";
@@ -39,10 +39,10 @@ elseif ($text=="2*1*3"){
     $reponse.="5. Retour";
 }
 
-elseif ($text=="2*1*3*2" || $text=="1*2*20" || $text=="1*2*20"){
+elseif ($text=="2*1*3131*2" || $text=="1*2*20" || $text=="1*2*20"){
     $reponse="CON Confirmer votre achat";
 }
-elseif ($text=="2*1*3*2*1234" || $text=="3*2*20*1234" || $text=="3*2*20*1234"){
+elseif ($text=="2*1*3131*2*1234" || $text=="3*2*20*1234" || $text=="3*2*20*1234"){
 $reponse="END Merci un message vous sera envoyer pour la confirmation, verification en cours de votre achat...";
 }
 elseif ($text=="4"){
