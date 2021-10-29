@@ -18,7 +18,7 @@ elseif ($text=="1"){
     $reponse.="3. Retour";
 }
 
-elseif ($text=="2"){
+elseif ($text=="1*2"){
     $reponse="CON Courant en CDF\n";
     $reponse.="1. Socode\n";
     $reponse.="2. Virunga SARL\n";
@@ -26,11 +26,11 @@ elseif ($text=="2"){
     $reponse.="4. Retour";
 }
 
-elseif ($text=="2*1" || $text=="2*2" || $text=="2*3"){
+elseif ($text=="1*1*1" || $text=="2*2" || $text=="2*3"){
     $reponse="CON Entrer le numero du compteur Socode : ";
 }
 
-elseif ($text=="3"){
+elseif ($text=="1*1*1*3131"){
     $reponse="CON Acha en Kilo Watter\n";
     $reponse.="1. 10Kw\n";
     $reponse.="2. 20Kw\n";
@@ -39,10 +39,10 @@ elseif ($text=="3"){
     $reponse.="5. Retour";
 }
 
-elseif ($text=="1*1*20" || $text=="1*2*20" || $text=="1*2*20"){
+elseif ($text=="1*1*1*3131*2" || $text=="1*2*20" || $text=="1*2*20"){
     $reponse="CON Confirmer votre achat";
 }
-elseif ($text=="3*1*20*1234" || $text=="3*2*20*1234" || $text=="3*2*20*1234"){
+elseif ($text=="1*1*1*3131*2*1234" || $text=="3*2*20*1234" || $text=="3*2*20*1234"){
 $reponse="END Merci un message vous sera envoyer pour la confirmation, verification en cours de votre achat...";
 }
 elseif ($text=="4"){
